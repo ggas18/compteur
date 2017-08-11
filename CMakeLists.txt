@@ -10,4 +10,4 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -pedantic -Wall -Wextra -Wca
 
 file(GLOB SOURCES "src/*.cpp")
 
-add_library(Compteur SHARED ${SOURCES})
+add_library(compteur SHARED ${SOURCES})
