@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5.1)
 
-project (mecsycoLib )
+project (compteur )
 
 set(PROJECT_VERSION "1.0.0")
 

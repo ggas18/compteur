@@ -1,12 +1,14 @@
-// Compteur.h //
+// Compter.h //
+#ifndef COMPTER_H_
+#define COMPTER_H_
 
-class Compteur {
+class Compter {
 private:
   double _val; // la valeur qui nous permet de garder l'état interne
 
 public:
   // Constructeur
-  Compteur();
+  Compter();
 
   // Observer
   double getValue();
@@ -14,3 +16,5 @@ public:
   // Increment function
   void increment(double incValue);
 };
+
+#endif
