@@ -1,3 +1,4 @@
+// "JCompteur.hpp"
 #include <jni.h> // pour JNIenv et jobject
 
 #include "Compter.h"
